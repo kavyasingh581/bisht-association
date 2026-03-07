@@ -85,6 +85,68 @@ Update the `services` array in `src/App.jsx` to add/edit practice areas.
 
 The site uses Tailwind's slate color palette. To change the theme, replace `slate` classes throughout the component.
 
+## SEO Configuration
+
+The website is fully optimized for search engines with:
+
+### Meta Tags
+- Primary meta tags (title, description, keywords)
+- Open Graph tags for social media sharing
+- Twitter Card tags
+- Geo-location tags for local SEO
+- Canonical URL
+
+### Structured Data
+- Schema.org JSON-LD markup for LegalService
+- Business information (address, phone, email)
+- Service types and area served
+- Social media profiles
+
+### Files
+- **sitemap.xml** - Located in `/public/sitemap.xml`
+- **robots.txt** - Located in `/public/robots.txt`
+- Update these files when adding new pages or sections
+
+### After Deployment
+1. Submit sitemap to Google Search Console: `https://your-domain.com/sitemap.xml`
+2. Verify ownership in Google Search Console
+3. Submit to Bing Webmaster Tools
+4. Monitor SEO performance and rankings
+
+## Deployment
+
+### Vercel (Recommended)
+
+1. Push your code to GitHub
+2. Import project in Vercel
+3. Vercel will auto-detect Vite configuration
+4. Deploy!
+
+**Important**: 
+- Images in `public/` folder are referenced as `/image.jpg` (not `/public/image.jpg`)
+- The `vercel.json` file is already configured for proper routing
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+The optimized build will be in the `dist/` folder.
+
+## Important Notes
+
+### Image Paths
+- Images in the `public` folder should be referenced without the `/public/` prefix
+- Example: Use `/holi%20design.jpeg` instead of `/public/holi design.jpeg`
+- Spaces in filenames are URL-encoded with `%20`
+
+### Environment Variables
+If you add environment variables, create a `.env` file and prefix them with `VITE_`:
+```
+VITE_API_URL=https://api.example.com
+```
+
 ## License
 
 © 2026 Bisht Associates. All rights reserved.

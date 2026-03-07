@@ -217,7 +217,7 @@ ${formData.message}
             <div className="relative mx-auto max-w-lg lg:max-w-none">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-slate-100/50">
                 <img 
-                  src="/public/holi design.jpeg" 
+                  src="/holi%20design.jpeg" 
                   alt="Modern Legal Office" 
                   className="w-full h-[400px] sm:h-[500px] lg:h-[600px] object-cover"
                 />
@@ -419,7 +419,7 @@ At Bisht & Associates, we believe in delivering transparent, ethical, and result
             <div className="bg-slate-50 rounded-2xl overflow-hidden hover:shadow-xl transition-all group border border-slate-100 w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.5rem)] max-w-sm">
               <div className="aspect-square overflow-hidden">
                 <img 
-                  src="/public/Team_mem2.jpeg" 
+                  src="/Team_mem2.jpeg" 
                   alt="Adv. Shankar Datt Gahtori" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -439,7 +439,7 @@ At Bisht & Associates, we believe in delivering transparent, ethical, and result
             <div className="bg-slate-50 rounded-2xl overflow-hidden hover:shadow-xl transition-all group border border-slate-100 w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.5rem)] max-w-sm">
               <div className="aspect-square overflow-hidden">
                 <img 
-                  src="/public/Team_mem1.jpeg" 
+                  src="/Team_mem1.jpeg" 
                   alt="Adv. Tara Singh Bisht" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
