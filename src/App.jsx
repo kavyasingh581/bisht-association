@@ -66,7 +66,7 @@ ${formData.message}
     
     // In a real app with a backend, we'd use fetch/axios here.
     // For this requirement, we trigger the user's email client directly.
-    window.location.href = `mailto:bookings@bishtassociates.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:bishtassociates05@gmail.com?subject=${subject}&body=${body}`;
     
     setFormStatus('success');
     setTimeout(() => setFormStatus(null), 5000);
@@ -130,7 +130,7 @@ ${formData.message}
               </div>
               <div className="flex flex-col">
                 <span className="text-2xl font-black tracking-tight text-slate-900 leading-none">
-                  BISHT
+                  BISHT &
                 </span>
                 <span className="text-xs font-semibold tracking-widest text-slate-500 uppercase mt-0.5">
                   Associates
@@ -184,7 +184,7 @@ ${formData.message}
             <div className="text-center lg:text-left mb-16 lg:mb-0 mt-8 lg:mt-0">
               <div className="inline-flex items-center space-x-2 bg-white border border-slate-200 rounded-full px-4 py-1.5 mb-8 shadow-sm">
                 <div className="w-2 h-2 rounded-full bg-slate-800 animate-pulse"></div>
-                <span className="text-xs sm:text-sm font-semibold text-slate-700 uppercase tracking-wider">High Court & Supreme Court</span>
+                <span className="text-xs sm:text-sm font-semibold text-slate-700 uppercase tracking-wider">Supreme Court Of India & High Courts</span>
               </div>
               
               <h1 className="text-5xl lg:text-6xl xl:text-7xl font-extrabold text-slate-900 tracking-tight mb-6 leading-[1.1]">
@@ -499,7 +499,13 @@ Dedicated to delivering professional and result-oriented legal services.
                     </div>
                     <div>
                       <h4 className="text-lg font-semibold mb-1">Chambers</h4>
-                      <p className="text-slate-300">Supreme Court of India,<br/>Tilak Marg, New Delhi, 110001</p>
+                      <p className="text-slate-300">Rohini Court Chamber,<br/>Chamber No. 132
+Lawyers Chamber Block
+Rohini Court Complex
+Delhi – 110085</p><br />
+ <p className="text-slate-300">Tis Hazari Court Chamber,<br/>Chamber No. N-4, Western Wing
+Tis Hazari Court Complex
+Delhi – 110054</p>
                     </div>
                   </div>
                   
@@ -509,7 +515,7 @@ Dedicated to delivering professional and result-oriented legal services.
                     </div>
                     <div>
                       <h4 className="text-lg font-semibold mb-1">Phone</h4>
-                      <p className="text-slate-300">+91 98XXX XXXXX<br/>+91 11 23XX XXXX</p>
+                      <p className="text-slate-300">+91 9312444692<br/>+91 8076046284</p>
                     </div>
                   </div>
                   
@@ -519,7 +525,7 @@ Dedicated to delivering professional and result-oriented legal services.
                     </div>
                     <div>
                       <h4 className="text-lg font-semibold mb-1">Email</h4>
-                      <p className="text-slate-300">bookings@bishtassociates.com<br/>legal@bishtassociates.com</p>
+                      <p className="text-slate-300">bishtassociates05@gmail.com</p>
                     </div>
                   </div>
                 </div>
@@ -547,7 +553,7 @@ Dedicated to delivering professional and result-oriented legal services.
                       value={formData.name}
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-slate-900 focus:border-slate-900 transition-colors bg-slate-50 focus:bg-white outline-none"
-                      placeholder="John Doe"
+                      placeholder="Your Name"
                     />
                   </div>
                   <div>
@@ -574,7 +580,7 @@ Dedicated to delivering professional and result-oriented legal services.
                       value={formData.email}
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-slate-900 focus:border-slate-900 transition-colors bg-slate-50 focus:bg-white outline-none"
-                      placeholder="john@example.com"
+                      placeholder="your.email@example.com"
                     />
                   </div>
                   <div>
@@ -587,13 +593,15 @@ Dedicated to delivering professional and result-oriented legal services.
                       className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-slate-900 focus:border-slate-900 transition-colors bg-slate-50 focus:bg-white outline-none appearance-none"
                     >
                       <option value="" disabled>Select a service...</option>
-                      <option value="Corporate & Commercial">Corporate & Commercial</option>
-                      <option value="Criminal Defense">Criminal Defense</option>
-                      <option value="Civil Litigation">Civil Litigation</option>
-                      <option value="Constitutional Law">Constitutional Law (Writ Petitions)</option>
-                      <option value="Arbitration">Arbitration</option>
-                      <option value="Family Law">Family & Matrimonial</option>
-                      <option value="General Consultation">General Consultation</option>
+                      <option value="Civil Suite">Civil Suite</option>
+                      <option value="Criminal Law">Criminal Law</option>
+                      <option value="CAT Matters">CAT Matters</option>
+                      <option value="Writ Petitions">Writ Petitions</option>
+                      <option value="NGT Matters">NGT Matters</option>
+                      <option value="Family & Matrimonial">Family & Matrimonial</option>
+                      <option value="Property Disputes">Property Disputes</option>
+                      <option value="Any Other Disputes">Any Other Disputes</option>
+
                     </select>
                   </div>
                 </div>
