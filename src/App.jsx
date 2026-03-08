@@ -125,14 +125,14 @@ ${formData.message}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center">
             <div className="flex items-center cursor-pointer group" onClick={() => window.scrollTo(0,0)}>
-              <div className="bg-gradient-to-br from-slate-900 to-slate-700 p-2.5 rounded-xl mr-3 shadow-lg group-hover:shadow-xl transition-all group-hover:scale-105">
-                <Scale className="w-6 h-6 text-white" />
+              <div className="bg-white p-2 rounded-xl mr-4 shadow-lg group-hover:shadow-xl transition-all group-hover:scale-105">
+                <img src="/logo.jpeg" alt="Bisht Associates Logo" className="w-16 h-16 object-contain" />
               </div>
               <div className="flex flex-col">
-                <span className="text-2xl font-black tracking-tight text-slate-900 leading-none">
+                <span className="text-3xl md:text-4xl font-black tracking-tight text-slate-900 leading-none">
                   BISHT &
                 </span>
-                <span className="text-xs font-semibold tracking-widest text-slate-500 uppercase mt-0.5">
+                <span className="text-sm md:text-base font-semibold tracking-widest text-slate-500 uppercase mt-1">
                   Associates
                 </span>
               </div>
@@ -193,7 +193,7 @@ ${formData.message}
               </h1>
               
               <p className="text-lg lg:text-xl text-slate-600 mb-10 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                Bisht Associates provides premier legal advocacy at India's highest judicial forums, blending traditional legal excellence with modern litigation strategies.
+                Bisht & Associates provides premier legal advocacy at India's highest judicial forums, blending traditional legal excellence with modern litigation strategies.
               </p>
               
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center lg:justify-start">
@@ -641,8 +641,8 @@ Delhi – 110054</p>
             
             <div className="text-center md:text-left">
               <div className="flex items-center justify-center md:justify-start mb-4">
-                <Scale className="w-8 h-8 text-white mr-2" />
-                <span className="text-2xl font-bold tracking-tight text-white">
+                <img src="/logo.jpeg" alt="Bisht Associates Logo" className="w-14 h-14 object-contain mr-3" />
+                <span className="text-3xl font-bold tracking-tight text-white">
                   BISHT <span className="font-light">ASSOCIATES</span>
                 </span>
               </div>
@@ -707,7 +707,7 @@ Delhi – 110054</p>
 
         {/* WhatsApp */}
         <a
-          href="https://wa.me/919XXXXXXXXX?text=Hello%20Bisht%20Associates%2C%20I%20would%20like%20to%20inquire%20about%20legal%20services."
+          href="https://wa.me/919312444692?text=Hello%20Bisht%20Associates%2C%20I%20would%20like%20to%20inquire%20about%20legal%20services."
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-2xl hover:shadow-green-500/50 transition-all hover:scale-110 flex items-center justify-center group relative"
